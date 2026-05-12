@@ -14,7 +14,7 @@ Claude Code auto-discovers skills under `~/.claude/skills/`. No further setup.
 
 ## How it works
 
-When the agent finishes work whose result has multiple sections, comparisons, visual structure, or a TL;DR-then-drill-down shape, it produces an `.html` file in `notes/<slug>.html` and replies in one line with the path. The file works offline by double-click — all CSS, JS, and SVG are inline.
+When the agent finishes work whose result has multiple sections, comparisons, visual structure, or a TL;DR-then-drill-down shape, it produces an `.html` file in `notes/<slug>.html`, **opens it in the browser for you**, and replies in one line with the path. The file works offline by double-click — all CSS, JS, and SVG are inline.
 
 The agent stays in markdown for short answers, single linear explanations, or code-only output. HTML must earn its place.
 

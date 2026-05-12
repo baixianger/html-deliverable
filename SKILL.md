@@ -66,7 +66,8 @@ Read **only one** reference. If its snippet hardcodes a hex (`#2563eb`), swap fo
 3. **Semantic HTML** — `<section>`, `<details>`, `<table>`, `<figure>`.
 4. **No frameworks, no build.** Charts = hand-drawn inline SVG.
 5. **Save to `notes/<slug>.html`.** Don't commit unless asked.
-6. **Reply in one line:** what + path + `open notes/<slug>.html`. Never repeat content as markdown.
+6. **Open it for the user.** After saving, run `open notes/<slug>.html` (macOS) / `xdg-open` (Linux) / `start` (Windows) via Bash so the file pops in the browser immediately. Don't make the user copy-paste a path.
+7. **Reply in one line:** what + path. Never repeat content as markdown — the open browser tab is the deliverable.
 
 ## Anti-patterns
 
